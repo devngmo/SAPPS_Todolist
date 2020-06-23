@@ -1,0 +1,14 @@
+<!-- xxxxxxxxxxxxxxxxxxx Vue App xxxxxxxxxxxxxxxxxxx -->
+<div id="app">
+    <!-- App body -->
+    <div class="app-view">
+        <navbar :tabs="tabs" key_id="id" key_name="title" @change="onNavTabChanged"></navbar>
+        <applist :tab="curTabId"></applist>
+    </div>
+    <!-- App body -->
+</div>
+
+<div id="cdlg-container">
+</div>
+<!-- xxxxxxxxxxxxxxxxxxx Vue App xxxxxxxxxxxxxxxxxxx -->
+<script src="http://127.0.0.1:8000/superapp/app.js"></script>
