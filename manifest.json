@@ -1,5 +1,8 @@
 {
+  "id":"todolist",
   "code":"todolist",
   "name":"Todolist",
+  "provider_type":"github",
+  "package_url":"https://github.com/devngmo/SAPPS_Todolist/archive/master.zip",
   "version_code":1
 }
